@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Component.TheHunters", "Components\Component.TheHunters\Component.TheHunters.csproj", "{541E3A81-0243-47BB-BED8-06B702EA090A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests.TheHunters", "UnitTests\UnitTests.TheHunters\UnitTests.TheHunters.csproj", "{9884E861-FCC1-414B-90CD-FB7EE0F5E078}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,12 +23,17 @@ Global
 		{541E3A81-0243-47BB-BED8-06B702EA090A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{541E3A81-0243-47BB-BED8-06B702EA090A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{541E3A81-0243-47BB-BED8-06B702EA090A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9884E861-FCC1-414B-90CD-FB7EE0F5E078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9884E861-FCC1-414B-90CD-FB7EE0F5E078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9884E861-FCC1-414B-90CD-FB7EE0F5E078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9884E861-FCC1-414B-90CD-FB7EE0F5E078}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{541E3A81-0243-47BB-BED8-06B702EA090A} = {21CF15AE-1A02-431A-A3FA-3617F1008959}
+		{9884E861-FCC1-414B-90CD-FB7EE0F5E078} = {8D7581AD-412E-41B8-BAD6-4CE58EFD9AA3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {29A801B5-1A7E-401E-9F00-1582CD3C58B7}
