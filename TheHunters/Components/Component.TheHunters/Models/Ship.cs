@@ -1,11 +1,12 @@
-﻿using Component.TheHunters.Enumerations;
+﻿using System.Text.Json.Serialization;
+using Component.TheHunters.Enumerations;
 
 namespace Component.TheHunters.Models
 {
     public class Ship
     {
         #region CONSTRUCTOR
-        public Ship(string name, ShipType type, int tonnage)
+        internal Ship(string name, ShipType type, int tonnage)
         {
             Name = name;
             Type = type;
@@ -21,6 +22,7 @@ namespace Component.TheHunters.Models
 
         public int Tonnage { get; }
 
+        [JsonIgnore]
         public int Damage { get; set; }
         #endregion
     }

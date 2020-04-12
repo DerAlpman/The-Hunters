@@ -9,9 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{7D940B03-1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{8D7581AD-412E-41B8-BAD6-4CE58EFD9AA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Component.TheHunters", "Components\Component.TheHunters\Component.TheHunters.csproj", "{541E3A81-0243-47BB-BED8-06B702EA090A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Component.TheHunters", "Components\Component.TheHunters\Component.TheHunters.csproj", "{541E3A81-0243-47BB-BED8-06B702EA090A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests.TheHunters", "UnitTests\UnitTests.TheHunters\UnitTests.TheHunters.csproj", "{9884E861-FCC1-414B-90CD-FB7EE0F5E078}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests.TheHunters", "UnitTests\UnitTests.TheHunters\UnitTests.TheHunters.csproj", "{9884E861-FCC1-414B-90CD-FB7EE0F5E078}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShipJsonWriterConsole", "Apps\ShipJsonWriterConsole\ShipJsonWriterConsole.csproj", "{FE91A416-83C4-432D-939D-A9A4AA78AA77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{9884E861-FCC1-414B-90CD-FB7EE0F5E078}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9884E861-FCC1-414B-90CD-FB7EE0F5E078}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9884E861-FCC1-414B-90CD-FB7EE0F5E078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE91A416-83C4-432D-939D-A9A4AA78AA77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE91A416-83C4-432D-939D-A9A4AA78AA77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE91A416-83C4-432D-939D-A9A4AA78AA77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE91A416-83C4-432D-939D-A9A4AA78AA77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{541E3A81-0243-47BB-BED8-06B702EA090A} = {21CF15AE-1A02-431A-A3FA-3617F1008959}
 		{9884E861-FCC1-414B-90CD-FB7EE0F5E078} = {8D7581AD-412E-41B8-BAD6-4CE58EFD9AA3}
+		{FE91A416-83C4-432D-939D-A9A4AA78AA77} = {7D940B03-18CC-4F02-88A1-677E8316213D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {29A801B5-1A7E-401E-9F00-1582CD3C58B7}
