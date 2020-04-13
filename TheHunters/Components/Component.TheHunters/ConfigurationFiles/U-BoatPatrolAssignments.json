@@ -1,0 +1,44 @@
+[
+  {
+    "DateStart": "1939-01-01T00:00:00",
+    "DateEnd": "1940-03-31T00:00:00",
+    "PatrolRegions": [
+      {
+        "Name": "Spanish Coast",
+        "Roll": 2,
+        "Type": 0,
+        "PatrolBoxes": [
+          {
+            "Name": "Transit",
+            "Encounters": null
+          },
+          {
+            "Name": "Transit",
+            "Encounters": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "DateStart": "1940-04-01T00:00:00",
+    "DateEnd": "1940-06-30T00:00:00",
+    "PatrolRegions": [
+      {
+        "Name": "Spanish Coast",
+        "Roll": 2,
+        "Type": 0,
+        "PatrolBoxes": [
+          {
+            "Name": "Transit",
+            "Encounters": null
+          },
+          {
+            "Name": "Transit",
+            "Encounters": null
+          }
+        ]
+      }
+    ]
+  }
+]
