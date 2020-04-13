@@ -2,6 +2,9 @@
 
 namespace Component.TheHunters.Models
 {
+    /// <summary>
+    /// <para>A PatrolBox is part of a <see cref="Patrol"/>.</para>
+    /// </summary>
     public class PatrolBox
     {
         #region CONSTRUCTOR

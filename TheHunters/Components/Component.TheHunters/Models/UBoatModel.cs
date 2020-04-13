@@ -4,6 +4,9 @@ using Component.TheHunters.Enumerations;
 
 namespace Component.TheHunters.Models
 {
+    /// <summary>
+    /// <para>A model of a <see cref="UBoat"/>.</para>
+    /// </summary>
     public class UBoatModel
     {
         #region CONSTRUCTOR

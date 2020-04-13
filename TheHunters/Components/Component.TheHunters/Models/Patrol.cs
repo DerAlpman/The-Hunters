@@ -3,6 +3,9 @@ using Component.TheHunters.Enumerations;
 
 namespace Component.TheHunters.Models
 {
+    /// <summary>
+    /// <para>A patrol consists of <see cref="PatrolBox"/>. </para>
+    /// </summary>
     public class Patrol
     {
         #region CONSTRUCTOR

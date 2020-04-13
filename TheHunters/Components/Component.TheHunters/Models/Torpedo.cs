@@ -3,7 +3,7 @@
 namespace Component.TheHunters.Models
 {
     /// <summary>
-    /// <para>A torpedo.</para>
+    /// <para>A torpedo that can be in <see cref="TorpedoSection.Reloads"/> or in <see cref="TorpedoSection.TorpedoTubes"/>.</para>
     /// </summary>
     public class Torpedo
     {
