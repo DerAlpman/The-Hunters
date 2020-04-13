@@ -1,6 +1,6 @@
 ﻿using Component.TheHunters.Enumerations;
 
-namespace Component.TheHunters.Models
+namespace Component.TheHunters.Charts
 {
     public class Encounter
     {

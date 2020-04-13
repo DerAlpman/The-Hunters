@@ -14,7 +14,7 @@ namespace Component.TheHunters.Models
             int mineLoad, int torpedoLoad, DateTime available,
             int standardNumberSteamTorpedos, int standardNumberElectricTorpedos, int maxTorpedoAdjustments,
             MineSection mineSection, TorpedoSection frontTorpedoSection, TorpedoSection aftTorpedoSection,
-            List<PatrolRegion> patrols)
+            List<Patrol> patrols)
         {
             Model = model;
             Length = length;
@@ -75,7 +75,7 @@ namespace Component.TheHunters.Models
 
         public TorpedoSection AftTorpedoSection { get; set; }
 
-        public IEnumerable<PatrolRegion> Patrols { get; set; }
+        public IEnumerable<Patrol> Patrols { get; set; }
         #endregion PROPERTIES
     }
 }

@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Component.TheHunters.Models
+namespace Component.TheHunters.Charts
 {
     public class UBoatPatrolAssignment
     {
         #region CONSTRUCTOR
-        public UBoatPatrolAssignment(DateTime dateStart, DateTime dateEnd, List<PatrolRegion> patrolRegions)
+        public UBoatPatrolAssignment(DateTime dateStart, DateTime dateEnd, List<UBoatPatrolAssignmentRegion> patrolRegions)
         {
             DateStart = dateStart;
             DateEnd = dateEnd;
@@ -19,7 +19,7 @@ namespace Component.TheHunters.Models
 
         public DateTime DateEnd { get; set; }
 
-        public IEnumerable<PatrolRegion> PatrolRegions { get; set; }
+        public IEnumerable<UBoatPatrolAssignmentRegion> PatrolRegions { get; set; }
         #endregion PROPERTIES
     }
 }

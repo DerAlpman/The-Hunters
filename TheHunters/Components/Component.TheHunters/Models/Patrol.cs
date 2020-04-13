@@ -3,10 +3,10 @@ using Component.TheHunters.Enumerations;
 
 namespace Component.TheHunters.Models
 {
-    public class PatrolRegion
+    public class Patrol
     {
         #region CONSTRUCTOR
-        public PatrolRegion(PatrolRegions patrolRegion, IDictionary<string, PatrolBox> patrolBoxes)
+        public Patrol(PatrolRegions patrolRegion, IDictionary<string, PatrolBox> patrolBoxes)
         {
             Name = patrolRegion;
             PatrolBoxes = patrolBoxes;

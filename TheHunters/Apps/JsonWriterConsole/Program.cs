@@ -14,8 +14,8 @@ namespace JsonWriterConsole
             var configFileFolder = GetFoldersForConfigurationFiles();
 
             ShipListCreator.WriteShips(configFileFolder);
-
             UBoatModelCreator.WriteUBoatModels(configFileFolder);
+            UBoatPatrolAssignmentCreator.WritePatrolAssignments(configFileFolder);
             //IList<PatrolBox> patrolBoxes = BuildPatrolBoxes();
             //WritePatrolBoxesToJson(configFileFolder, patrolBoxes);
             //IList<UBoatPatrolAssignment> uBoatPatrolAssignments = BuildUBoatPatrolAssignments();
@@ -156,51 +156,6 @@ namespace JsonWriterConsole
         //    }));
 
         //    return patrolBoxes;
-        //}
-
-        //private static void WriteUBoatPatrolAssignmentToJson(string configFileFolder, IList<UBoatPatrolAssignment> uBoatPatrolAssignments)
-        //{
-
-        //    var options = new JsonWriterOptions()
-        //    {
-        //        Indented = true
-        //    };
-
-        //    using (FileStream fileStream = new FileStream(Path.Combine(configFileFolder, "U-BoatPatrolAssignments.json"), FileMode.Create))
-        //    using (var utf8JsonWriter = new Utf8JsonWriter(fileStream, options))
-        //    {
-        //        JsonSerializer.Serialize<IList<UBoatPatrolAssignment>>(utf8JsonWriter, uBoatPatrolAssignments);
-        //    }
-        //}
-
-        //private static IList<UBoatPatrolAssignment> BuildUBoatPatrolAssignments()
-        //{
-        //    var uBoatPatrolAssignments = new List<UBoatPatrolAssignment>()
-        //    {
-        //        { new UBoatPatrolAssignment(
-        //            new DateTime(1939,1,1), new DateTime(1940,3,31),
-        //            new List<PatrolRegion>()
-        //            {
-        //                {new PatrolRegion(2, "Spanish Coast", PatrolType.NORMAL,
-        //            new List<PatrolBox>()
-        //            {
-        //                {new PatrolBox("Transit") },
-        //                { new PatrolBox("Transit") }
-        //            }) } })
-        //        },
-        //        { new UBoatPatrolAssignment(
-        //            new DateTime(1940,4,1), new DateTime(1940,6,30),
-        //            new List<PatrolRegion>()
-        //            {{new PatrolRegion(2, "Spanish Coast", PatrolType.NORMAL,
-        //            new List<PatrolBox>()
-        //            {
-        //                {new PatrolBox("Transit") },
-        //                { new PatrolBox("Transit") }
-        //            } )} })
-        //        }
-        //    };
-
-        //    return uBoatPatrolAssignments;
         //}
 
         private static string GetFoldersForConfigurationFiles()

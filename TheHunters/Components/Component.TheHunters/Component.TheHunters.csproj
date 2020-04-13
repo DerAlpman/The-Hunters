@@ -27,7 +27,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="ConfigurationFiles\U-BoatPatrolAssignments.json">
+    <None Update="ConfigurationFiles\CapitalShips.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="ConfigurationFiles\UBoatModels.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="ConfigurationFiles\UBoatPatrolAssignments.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

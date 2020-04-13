@@ -1,0 +1,402 @@
+[
+  {
+    "DateStart": "1939-01-01T00:00:00",
+    "DateEnd": "1940-03-31T00:00:00",
+    "PatrolRegions": [
+      {
+        "Roll": 2,
+        "Region": 11
+      },
+      {
+        "Roll": 3,
+        "Region": 3
+      },
+      {
+        "Roll": 4,
+        "Region": 3
+      },
+      {
+        "Roll": 5,
+        "Region": 5
+      },
+      {
+        "Roll": 6,
+        "Region": 3
+      },
+      {
+        "Roll": 7,
+        "Region": 3
+      },
+      {
+        "Roll": 8,
+        "Region": 3
+      },
+      {
+        "Roll": 9,
+        "Region": 5
+      },
+      {
+        "Roll": 10,
+        "Region": 3
+      },
+      {
+        "Roll": 11,
+        "Region": 3
+      },
+      {
+        "Roll": 12,
+        "Region": 12
+      }
+    ]
+  },
+  {
+    "DateStart": "1940-04-01T00:00:00",
+    "DateEnd": "1940-06-30T00:00:00",
+    "PatrolRegions": [
+      {
+        "Roll": 2,
+        "Region": 11
+      },
+      {
+        "Roll": 3,
+        "Region": 10
+      },
+      {
+        "Roll": 4,
+        "Region": 3
+      },
+      {
+        "Roll": 5,
+        "Region": 5
+      },
+      {
+        "Roll": 6,
+        "Region": 3
+      },
+      {
+        "Roll": 7,
+        "Region": 3
+      },
+      {
+        "Roll": 8,
+        "Region": 3
+      },
+      {
+        "Roll": 9,
+        "Region": 3
+      },
+      {
+        "Roll": 10,
+        "Region": 10
+      },
+      {
+        "Roll": 11,
+        "Region": 10
+      },
+      {
+        "Roll": 12,
+        "Region": 12
+      }
+    ]
+  },
+  {
+    "DateStart": "1940-07-01T00:00:00",
+    "DateEnd": "1940-12-31T00:00:00",
+    "PatrolRegions": [
+      {
+        "Roll": 2,
+        "Region": 11
+      },
+      {
+        "Roll": 3,
+        "Region": 11
+      },
+      {
+        "Roll": 4,
+        "Region": 4
+      },
+      {
+        "Roll": 5,
+        "Region": 3
+      },
+      {
+        "Roll": 6,
+        "Region": 0
+      },
+      {
+        "Roll": 7,
+        "Region": 3
+      },
+      {
+        "Roll": 8,
+        "Region": 3
+      },
+      {
+        "Roll": 9,
+        "Region": 5
+      },
+      {
+        "Roll": 10,
+        "Region": 0
+      },
+      {
+        "Roll": 11,
+        "Region": 12
+      },
+      {
+        "Roll": 12,
+        "Region": 12
+      }
+    ]
+  },
+  {
+    "DateStart": "1941-01-01T00:00:00",
+    "DateEnd": "1941-06-30T00:00:00",
+    "PatrolRegions": [
+      {
+        "Roll": 2,
+        "Region": 11
+      },
+      {
+        "Roll": 3,
+        "Region": 1
+      },
+      {
+        "Roll": 4,
+        "Region": 3
+      },
+      {
+        "Roll": 5,
+        "Region": 0
+      },
+      {
+        "Roll": 6,
+        "Region": 3
+      },
+      {
+        "Roll": 7,
+        "Region": 0
+      },
+      {
+        "Roll": 8,
+        "Region": 0
+      },
+      {
+        "Roll": 9,
+        "Region": 3
+      },
+      {
+        "Roll": 10,
+        "Region": 12
+      },
+      {
+        "Roll": 11,
+        "Region": 12
+      },
+      {
+        "Roll": 12,
+        "Region": 7
+      }
+    ]
+  },
+  {
+    "DateStart": "1941-07-01T00:00:00",
+    "DateEnd": "1941-12-31T00:00:00",
+    "PatrolRegions": [
+      {
+        "Roll": 2,
+        "Region": 7
+      },
+      {
+        "Roll": 3,
+        "Region": 11
+      },
+      {
+        "Roll": 4,
+        "Region": 3
+      },
+      {
+        "Roll": 5,
+        "Region": 1
+      },
+      {
+        "Roll": 6,
+        "Region": 0
+      },
+      {
+        "Roll": 7,
+        "Region": 0
+      },
+      {
+        "Roll": 8,
+        "Region": 0
+      },
+      {
+        "Roll": 9,
+        "Region": 3
+      },
+      {
+        "Roll": 10,
+        "Region": 12
+      },
+      {
+        "Roll": 11,
+        "Region": 2
+      },
+      {
+        "Roll": 12,
+        "Region": 7
+      }
+    ]
+  },
+  {
+    "DateStart": "1942-01-01T00:00:00",
+    "DateEnd": "1942-06-30T00:00:00",
+    "PatrolRegions": [
+      {
+        "Roll": 2,
+        "Region": 2
+      },
+      {
+        "Roll": 3,
+        "Region": 9
+      },
+      {
+        "Roll": 4,
+        "Region": 1
+      },
+      {
+        "Roll": 5,
+        "Region": 8
+      },
+      {
+        "Roll": 6,
+        "Region": 8
+      },
+      {
+        "Roll": 7,
+        "Region": 8
+      },
+      {
+        "Roll": 8,
+        "Region": 0
+      },
+      {
+        "Roll": 9,
+        "Region": 3
+      },
+      {
+        "Roll": 10,
+        "Region": 0
+      },
+      {
+        "Roll": 11,
+        "Region": 6
+      },
+      {
+        "Roll": 12,
+        "Region": 12
+      }
+    ]
+  },
+  {
+    "DateStart": "1942-01-01T00:00:00",
+    "DateEnd": "1942-06-30T00:00:00",
+    "PatrolRegions": [
+      {
+        "Roll": 2,
+        "Region": 7
+      },
+      {
+        "Roll": 3,
+        "Region": 2
+      },
+      {
+        "Roll": 4,
+        "Region": 1
+      },
+      {
+        "Roll": 5,
+        "Region": 8
+      },
+      {
+        "Roll": 6,
+        "Region": 0
+      },
+      {
+        "Roll": 7,
+        "Region": 0
+      },
+      {
+        "Roll": 8,
+        "Region": 1
+      },
+      {
+        "Roll": 9,
+        "Region": 3
+      },
+      {
+        "Roll": 10,
+        "Region": 8
+      },
+      {
+        "Roll": 11,
+        "Region": 0
+      },
+      {
+        "Roll": 12,
+        "Region": 12
+      }
+    ]
+  },
+  {
+    "DateStart": "1942-01-01T00:00:00",
+    "DateEnd": "1942-06-30T00:00:00",
+    "PatrolRegions": [
+      {
+        "Roll": 2,
+        "Region": 7
+      },
+      {
+        "Roll": 3,
+        "Region": 1
+      },
+      {
+        "Roll": 4,
+        "Region": 3
+      },
+      {
+        "Roll": 5,
+        "Region": 8
+      },
+      {
+        "Roll": 6,
+        "Region": 1
+      },
+      {
+        "Roll": 7,
+        "Region": 0
+      },
+      {
+        "Roll": 8,
+        "Region": 0
+      },
+      {
+        "Roll": 9,
+        "Region": 8
+      },
+      {
+        "Roll": 10,
+        "Region": 2
+      },
+      {
+        "Roll": 11,
+        "Region": 1
+      },
+      {
+        "Roll": 12,
+        "Region": 12
+      }
+    ]
+  }
+]

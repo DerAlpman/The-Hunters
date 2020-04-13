@@ -46,8 +46,8 @@ namespace JsonWriterConsole.Creators
                 0, 22, new DateTime(1941, 5, 1),
                 12, 10, 4, null,
                 new TorpedoSection(TorpedoSectionType.FRONT, 4, 14), new TorpedoSection(TorpedoSectionType.AFT, 2, 2),
-                new List<PatrolRegion>() {
-                    { new PatrolRegion(PatrolRegions.ATLANTIC, new Dictionary<string, PatrolBox>()
+                new List<Patrol>() {
+                    { new Patrol(PatrolRegions.ATLANTIC, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -60,7 +60,20 @@ namespace JsonWriterConsole.Creators
                         { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.BRITISH_ISLES, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.ATLANTIC_W, new Dictionary<string, PatrolBox>()
+                    {
+                        { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
+                        { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
+                        { "3", new PatrolBox(PatrolBoxType.ATLANTIC) },
+                        { "4", new PatrolBox(PatrolBoxType.ATLANTIC) },
+                        { "5", new PatrolBox(PatrolBoxType.ATLANTIC, countRollEncounters: 3) },
+                        { "6", new PatrolBox(PatrolBoxType.ATLANTIC) },
+                        { "7", new PatrolBox(PatrolBoxType.ATLANTIC, resupplyCheck: true) },
+                        { "8", new PatrolBox(PatrolBoxType.TRANSIT ) },
+                        { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
+                        }
+                    ) },
+                    { new Patrol(PatrolRegions.BRITISH_ISLES, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -73,7 +86,7 @@ namespace JsonWriterConsole.Creators
                         { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.BRITISH_ISLES_M, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.BRITISH_ISLES_M, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -86,7 +99,7 @@ namespace JsonWriterConsole.Creators
                         { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.BRITISH_ISLES_A, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.BRITISH_ISLES_A, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -99,7 +112,7 @@ namespace JsonWriterConsole.Creators
                         { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.NORTH_AMERICA, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.NORTH_AMERICA, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -115,7 +128,7 @@ namespace JsonWriterConsole.Creators
                         { "12", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.CARIBBEAN, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.CARIBBEAN, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -131,7 +144,7 @@ namespace JsonWriterConsole.Creators
                         { "12", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.SPANISH_COAST, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.SPANISH_COAST, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -144,7 +157,7 @@ namespace JsonWriterConsole.Creators
                         { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.NORWAY, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.NORWAY, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -157,7 +170,7 @@ namespace JsonWriterConsole.Creators
                         { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.WEST_AFRICAN_COAST, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.WEST_AFRICAN_COAST, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -184,8 +197,8 @@ namespace JsonWriterConsole.Creators
                 0, 22, new DateTime(1940, 4, 1),
                 12, 10, 4, null,
                 new TorpedoSection(TorpedoSectionType.FRONT, 4, 14), new TorpedoSection(TorpedoSectionType.AFT, 2, 2),
-                new List<PatrolRegion>() {
-                    { new PatrolRegion(PatrolRegions.ATLANTIC, new Dictionary<string, PatrolBox>()
+                new List<Patrol>() {
+                    { new Patrol(PatrolRegions.ATLANTIC, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -198,7 +211,20 @@ namespace JsonWriterConsole.Creators
                         { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.BRITISH_ISLES, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.ATLANTIC_W, new Dictionary<string, PatrolBox>()
+                    {
+                        { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
+                        { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
+                        { "3", new PatrolBox(PatrolBoxType.ATLANTIC) },
+                        { "4", new PatrolBox(PatrolBoxType.ATLANTIC) },
+                        { "5", new PatrolBox(PatrolBoxType.ATLANTIC, countRollEncounters: 3) },
+                        { "6", new PatrolBox(PatrolBoxType.ATLANTIC) },
+                        { "7", new PatrolBox(PatrolBoxType.ATLANTIC, resupplyCheck: true) },
+                        { "8", new PatrolBox(PatrolBoxType.TRANSIT ) },
+                        { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
+                        }
+                    ) },
+                    { new Patrol(PatrolRegions.BRITISH_ISLES, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -211,7 +237,7 @@ namespace JsonWriterConsole.Creators
                         { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.BRITISH_ISLES_M, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.BRITISH_ISLES_M, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -224,7 +250,7 @@ namespace JsonWriterConsole.Creators
                         { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.BRITISH_ISLES_A, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.BRITISH_ISLES_A, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -237,7 +263,7 @@ namespace JsonWriterConsole.Creators
                         { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.NORTH_AMERICA, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.NORTH_AMERICA, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -253,7 +279,7 @@ namespace JsonWriterConsole.Creators
                         { "12", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.CARIBBEAN, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.CARIBBEAN, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -269,7 +295,7 @@ namespace JsonWriterConsole.Creators
                         { "12", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.SPANISH_COAST, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.SPANISH_COAST, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -282,7 +308,7 @@ namespace JsonWriterConsole.Creators
                         { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.NORWAY, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.NORWAY, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -295,7 +321,7 @@ namespace JsonWriterConsole.Creators
                         { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.WEST_AFRICAN_COAST, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.WEST_AFRICAN_COAST, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -322,8 +348,8 @@ namespace JsonWriterConsole.Creators
                 0, 22, new DateTime(1939, 9, 1),
                 12, 10, 4, null,
                 new TorpedoSection(TorpedoSectionType.FRONT, 4, 14), new TorpedoSection(TorpedoSectionType.AFT, 2, 2),
-                new List<PatrolRegion>() {
-                    { new PatrolRegion(PatrolRegions.ATLANTIC, new Dictionary<string, PatrolBox>()
+                new List<Patrol>() {
+                    { new Patrol(PatrolRegions.ATLANTIC, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -336,7 +362,20 @@ namespace JsonWriterConsole.Creators
                         { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.BRITISH_ISLES, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.ATLANTIC_W, new Dictionary<string, PatrolBox>()
+                    {
+                        { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
+                        { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
+                        { "3", new PatrolBox(PatrolBoxType.ATLANTIC) },
+                        { "4", new PatrolBox(PatrolBoxType.ATLANTIC) },
+                        { "5", new PatrolBox(PatrolBoxType.ATLANTIC, countRollEncounters: 3) },
+                        { "6", new PatrolBox(PatrolBoxType.ATLANTIC) },
+                        { "7", new PatrolBox(PatrolBoxType.ATLANTIC, resupplyCheck: true) },
+                        { "8", new PatrolBox(PatrolBoxType.TRANSIT ) },
+                        { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
+                        }
+                    ) },
+                    { new Patrol(PatrolRegions.BRITISH_ISLES, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -349,7 +388,7 @@ namespace JsonWriterConsole.Creators
                         { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.BRITISH_ISLES_M, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.BRITISH_ISLES_M, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -362,7 +401,7 @@ namespace JsonWriterConsole.Creators
                         { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.BRITISH_ISLES_A, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.BRITISH_ISLES_A, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -375,7 +414,7 @@ namespace JsonWriterConsole.Creators
                         { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.NORTH_AMERICA, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.NORTH_AMERICA, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -391,7 +430,7 @@ namespace JsonWriterConsole.Creators
                         { "12", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.CARIBBEAN, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.CARIBBEAN, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -407,7 +446,7 @@ namespace JsonWriterConsole.Creators
                         { "12", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.SPANISH_COAST, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.SPANISH_COAST, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -420,7 +459,7 @@ namespace JsonWriterConsole.Creators
                         { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.NORWAY, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.NORWAY, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -433,7 +472,7 @@ namespace JsonWriterConsole.Creators
                         { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.WEST_AFRICAN_COAST, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.WEST_AFRICAN_COAST, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -460,8 +499,8 @@ namespace JsonWriterConsole.Creators
                 15, 14, new DateTime(1942, 1, 1),
                 8, 6, 3, new MineSection(15),
                 new TorpedoSection(TorpedoSectionType.FRONT, 4, 8), new TorpedoSection(TorpedoSectionType.AFT, 1, 1),
-                new List<PatrolRegion>() {
-                    { new PatrolRegion(PatrolRegions.ATLANTIC, new Dictionary<string, PatrolBox>()
+                new List<Patrol>() {
+                    { new Patrol(PatrolRegions.ATLANTIC, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -474,7 +513,20 @@ namespace JsonWriterConsole.Creators
                         { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.BRITISH_ISLES, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.ATLANTIC_W, new Dictionary<string, PatrolBox>()
+                    {
+                        { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
+                        { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
+                        { "3", new PatrolBox(PatrolBoxType.ATLANTIC) },
+                        { "4", new PatrolBox(PatrolBoxType.ATLANTIC) },
+                        { "5", new PatrolBox(PatrolBoxType.ATLANTIC, countRollEncounters: 3) },
+                        { "6", new PatrolBox(PatrolBoxType.ATLANTIC) },
+                        { "7", new PatrolBox(PatrolBoxType.ATLANTIC, resupplyCheck: true) },
+                        { "8", new PatrolBox(PatrolBoxType.TRANSIT ) },
+                        { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
+                        }
+                    ) },
+                    { new Patrol(PatrolRegions.BRITISH_ISLES, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -487,7 +539,7 @@ namespace JsonWriterConsole.Creators
                         { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.NORTH_AMERICA, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.NORTH_AMERICA, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -502,7 +554,7 @@ namespace JsonWriterConsole.Creators
                         { "11", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.CARIBBEAN, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.CARIBBEAN, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -517,7 +569,7 @@ namespace JsonWriterConsole.Creators
                         { "11", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.SPANISH_COAST, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.SPANISH_COAST, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -530,7 +582,7 @@ namespace JsonWriterConsole.Creators
                         { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.WEST_AFRICAN_COAST, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.WEST_AFRICAN_COAST, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -544,7 +596,7 @@ namespace JsonWriterConsole.Creators
                         { "10", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.ARCTIC, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.ARCTIC, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -557,7 +609,7 @@ namespace JsonWriterConsole.Creators
                         { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.MEDITERRANEAN, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.MEDITERRANEAN, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT_OR_GIBRALTAR ) },
@@ -582,8 +634,8 @@ namespace JsonWriterConsole.Creators
                 0, 5, new DateTime(1943, 5, 1),
                 8, 6, 3, null,
                 new TorpedoSection(TorpedoSectionType.FRONT, 4, 0), new TorpedoSection(TorpedoSectionType.AFT, 1, 0),
-                new List<PatrolRegion>() {
-                    { new PatrolRegion(PatrolRegions.ATLANTIC, new Dictionary<string, PatrolBox>()
+                new List<Patrol>() {
+                    { new Patrol(PatrolRegions.ATLANTIC, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -595,7 +647,20 @@ namespace JsonWriterConsole.Creators
                         { "8", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.BRITISH_ISLES, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.ATLANTIC_W, new Dictionary<string, PatrolBox>()
+                    {
+                        { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
+                        { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
+                        { "3", new PatrolBox(PatrolBoxType.ATLANTIC) },
+                        { "4", new PatrolBox(PatrolBoxType.ATLANTIC) },
+                        { "5", new PatrolBox(PatrolBoxType.ATLANTIC, countRollEncounters: 3) },
+                        { "6", new PatrolBox(PatrolBoxType.ATLANTIC) },
+                        { "7", new PatrolBox(PatrolBoxType.ATLANTIC, resupplyCheck: true) },
+                        { "8", new PatrolBox(PatrolBoxType.TRANSIT ) },
+                        { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
+                        }
+                    ) },
+                    { new Patrol(PatrolRegions.BRITISH_ISLES, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -607,7 +672,7 @@ namespace JsonWriterConsole.Creators
                         { "8", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.BRITISH_ISLES_M, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.BRITISH_ISLES_M, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -619,7 +684,7 @@ namespace JsonWriterConsole.Creators
                         { "8", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.BRITISH_ISLES_A, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.BRITISH_ISLES_A, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -631,7 +696,7 @@ namespace JsonWriterConsole.Creators
                         { "8", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.NORTH_AMERICA, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.NORTH_AMERICA, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -646,7 +711,7 @@ namespace JsonWriterConsole.Creators
                         { "11", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.SPANISH_COAST, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.SPANISH_COAST, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -658,7 +723,7 @@ namespace JsonWriterConsole.Creators
                         { "8", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.NORWAY, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.NORWAY, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -670,7 +735,7 @@ namespace JsonWriterConsole.Creators
                         { "8", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.ARCTIC, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.ARCTIC, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -682,7 +747,7 @@ namespace JsonWriterConsole.Creators
                         { "8", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.MEDITERRANEAN, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.MEDITERRANEAN, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT_OR_GIBRALTAR ) },
@@ -707,8 +772,8 @@ namespace JsonWriterConsole.Creators
                 0, 11, new DateTime(1939, 9, 1),
                 6, 5, 1, null,
                 new TorpedoSection(TorpedoSectionType.FRONT, 4, 6), new TorpedoSection(TorpedoSectionType.AFT, 1, 0),
-                new List<PatrolRegion>() {
-                    { new PatrolRegion(PatrolRegions.ATLANTIC, new Dictionary<string, PatrolBox>()
+                new List<Patrol>() {
+                    { new Patrol(PatrolRegions.ATLANTIC, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT) },
@@ -719,7 +784,20 @@ namespace JsonWriterConsole.Creators
                         { "7", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.BRITISH_ISLES, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.ATLANTIC_W, new Dictionary<string, PatrolBox>()
+                    {
+                        { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
+                        { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
+                        { "3", new PatrolBox(PatrolBoxType.ATLANTIC) },
+                        { "4", new PatrolBox(PatrolBoxType.ATLANTIC) },
+                        { "5", new PatrolBox(PatrolBoxType.ATLANTIC, countRollEncounters: 3) },
+                        { "6", new PatrolBox(PatrolBoxType.ATLANTIC) },
+                        { "7", new PatrolBox(PatrolBoxType.ATLANTIC, resupplyCheck: true) },
+                        { "8", new PatrolBox(PatrolBoxType.TRANSIT ) },
+                        { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
+                        }
+                    ) },
+                    { new Patrol(PatrolRegions.BRITISH_ISLES, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -730,7 +808,7 @@ namespace JsonWriterConsole.Creators
                         { "7", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.BRITISH_ISLES_M, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.BRITISH_ISLES_M, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -741,7 +819,7 @@ namespace JsonWriterConsole.Creators
                         { "7", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.BRITISH_ISLES_A, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.BRITISH_ISLES_A, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -752,7 +830,7 @@ namespace JsonWriterConsole.Creators
                         { "7", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.NORTH_AMERICA, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.NORTH_AMERICA, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -766,7 +844,7 @@ namespace JsonWriterConsole.Creators
                         { "10", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.SPANISH_COAST, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.SPANISH_COAST, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -777,7 +855,7 @@ namespace JsonWriterConsole.Creators
                         { "7", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.NORWAY, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.NORWAY, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -788,7 +866,7 @@ namespace JsonWriterConsole.Creators
                         { "7", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.ARCTIC, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.ARCTIC, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -799,7 +877,7 @@ namespace JsonWriterConsole.Creators
                         { "7", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.MEDITERRANEAN, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.MEDITERRANEAN, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT_OR_GIBRALTAR ) },
@@ -823,8 +901,8 @@ namespace JsonWriterConsole.Creators
                 0, 14, new DateTime(1940, 10, 1),
                 8, 6, 3, null,
                 new TorpedoSection(TorpedoSectionType.FRONT, 4, 8), new TorpedoSection(TorpedoSectionType.AFT, 1, 1),
-                new List<PatrolRegion>() {
-                    { new PatrolRegion(PatrolRegions.ATLANTIC, new Dictionary<string, PatrolBox>()
+                new List<Patrol>() {
+                    { new Patrol(PatrolRegions.ATLANTIC, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -836,7 +914,20 @@ namespace JsonWriterConsole.Creators
                         { "8", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.BRITISH_ISLES, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.ATLANTIC_W, new Dictionary<string, PatrolBox>()
+                    {
+                        { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
+                        { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
+                        { "3", new PatrolBox(PatrolBoxType.ATLANTIC) },
+                        { "4", new PatrolBox(PatrolBoxType.ATLANTIC) },
+                        { "5", new PatrolBox(PatrolBoxType.ATLANTIC, countRollEncounters: 3) },
+                        { "6", new PatrolBox(PatrolBoxType.ATLANTIC) },
+                        { "7", new PatrolBox(PatrolBoxType.ATLANTIC, resupplyCheck: true) },
+                        { "8", new PatrolBox(PatrolBoxType.TRANSIT ) },
+                        { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
+                        }
+                    ) },
+                    { new Patrol(PatrolRegions.BRITISH_ISLES, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -848,7 +939,7 @@ namespace JsonWriterConsole.Creators
                         { "8", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.BRITISH_ISLES_M, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.BRITISH_ISLES_M, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -860,7 +951,7 @@ namespace JsonWriterConsole.Creators
                         { "8", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.BRITISH_ISLES_M, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.BRITISH_ISLES_M, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -872,7 +963,7 @@ namespace JsonWriterConsole.Creators
                         { "8", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.NORTH_AMERICA, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.NORTH_AMERICA, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -887,7 +978,7 @@ namespace JsonWriterConsole.Creators
                         { "11", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.SPANISH_COAST, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.SPANISH_COAST, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -899,7 +990,7 @@ namespace JsonWriterConsole.Creators
                         { "8", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.NORWAY, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.NORWAY, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -911,7 +1002,7 @@ namespace JsonWriterConsole.Creators
                         { "8", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.ARCTIC, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.ARCTIC, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -923,7 +1014,7 @@ namespace JsonWriterConsole.Creators
                         { "8", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.MEDITERRANEAN, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.MEDITERRANEAN, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT_OR_GIBRALTAR ) },
@@ -948,8 +1039,8 @@ namespace JsonWriterConsole.Creators
                 0, 14, new DateTime(1939, 9, 1),
                 8, 6, 3, null,
                 new TorpedoSection(TorpedoSectionType.FRONT, 4, 8), new TorpedoSection(TorpedoSectionType.AFT, 1, 1),
-                new List<PatrolRegion>() {
-                    { new PatrolRegion(PatrolRegions.ATLANTIC, new Dictionary<string, PatrolBox>()
+                new List<Patrol>() {
+                    { new Patrol(PatrolRegions.ATLANTIC, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -961,7 +1052,20 @@ namespace JsonWriterConsole.Creators
                         { "8", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.BRITISH_ISLES, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.ATLANTIC_W, new Dictionary<string, PatrolBox>()
+                    {
+                        { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
+                        { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
+                        { "3", new PatrolBox(PatrolBoxType.ATLANTIC) },
+                        { "4", new PatrolBox(PatrolBoxType.ATLANTIC) },
+                        { "5", new PatrolBox(PatrolBoxType.ATLANTIC, countRollEncounters: 3) },
+                        { "6", new PatrolBox(PatrolBoxType.ATLANTIC) },
+                        { "7", new PatrolBox(PatrolBoxType.ATLANTIC, resupplyCheck: true) },
+                        { "8", new PatrolBox(PatrolBoxType.TRANSIT ) },
+                        { "9", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
+                        }
+                    ) },
+                    { new Patrol(PatrolRegions.BRITISH_ISLES, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -973,7 +1077,7 @@ namespace JsonWriterConsole.Creators
                         { "8", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.BRITISH_ISLES_M, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.BRITISH_ISLES_M, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -985,7 +1089,7 @@ namespace JsonWriterConsole.Creators
                         { "8", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.BRITISH_ISLES_A, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.BRITISH_ISLES_A, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -997,7 +1101,7 @@ namespace JsonWriterConsole.Creators
                         { "8", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.NORTH_AMERICA, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.NORTH_AMERICA, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -1012,7 +1116,7 @@ namespace JsonWriterConsole.Creators
                         { "11", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.SPANISH_COAST, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.SPANISH_COAST, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -1024,7 +1128,7 @@ namespace JsonWriterConsole.Creators
                         { "8", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.NORWAY, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.NORWAY, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -1036,7 +1140,7 @@ namespace JsonWriterConsole.Creators
                         { "8", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.ARCTIC, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.ARCTIC, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT ) },
@@ -1048,7 +1152,7 @@ namespace JsonWriterConsole.Creators
                         { "8", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) }
                         }
                     ) },
-                    { new PatrolRegion(PatrolRegions.MEDITERRANEAN, new Dictionary<string, PatrolBox>()
+                    { new Patrol(PatrolRegions.MEDITERRANEAN, new Dictionary<string, PatrolBox>()
                     {
                         { "1", new PatrolBox(PatrolBoxType.TRANSIT_OR_BAY_OF_BISCAY ) },
                         { "2", new PatrolBox(PatrolBoxType.TRANSIT_OR_GIBRALTAR ) },
