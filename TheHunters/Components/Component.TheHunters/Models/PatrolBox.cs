@@ -1,22 +1,24 @@
-﻿using System.Collections.Generic;
-using Component.TheHunters.Enumerations;
+﻿using Component.TheHunters.Enumerations;
 
 namespace Component.TheHunters.Models
 {
     public class PatrolBox
     {
         #region CONSTRUCTOR
-        public PatrolBox(PatrolBoxType type, IList<Encounter> encounters)
+        public PatrolBox(PatrolBoxType type, int countRollEncounters = 1, bool resupplyCheck = false)
         {
-            Type = type;
-            Encounters = encounters;
+            PatrolBoxType = type;
+            CountRollEncounters = countRollEncounters;
+            ResupplyCheck = resupplyCheck;
         }
         #endregion CONSTRUCTOR
 
         #region PROPERTIES
-        public PatrolBoxType Type { get; set; }
+        public PatrolBoxType PatrolBoxType { get; set; }
 
-        public IList<Encounter> Encounters { get; set; }
+        public int CountRollEncounters { get; set; }
+
+        public bool ResupplyCheck { get; set; }
         #endregion PROPERTIES
     }
 }

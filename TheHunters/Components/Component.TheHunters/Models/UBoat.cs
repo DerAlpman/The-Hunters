@@ -23,7 +23,7 @@ namespace Component.TheHunters.Models
 
         public CrewMember[] Crew { get; }
 
-        public CrewSkill CrewQuality { get; set; }
+        public CrewQuality CrewQuality { get; set; }
 
         public bool? InPort { get; set; }
 

@@ -5,21 +5,18 @@ namespace Component.TheHunters.Models
 {
     public class PatrolRegion
     {
-        public PatrolRegion(int roll, string name, PatrolType type, List<PatrolBox> patrolBoxes)
+        #region CONSTRUCTOR
+        public PatrolRegion(PatrolRegions patrolRegion, IDictionary<string, PatrolBox> patrolBoxes)
         {
-            Roll = roll;
-            Name = name;
-            Type = type;
+            Name = patrolRegion;
             PatrolBoxes = patrolBoxes;
         }
+        #endregion CONSTRUCTOR
+
         #region PROPERTIES
-        public string Name { get; set; }
+        public PatrolRegions Name { get; set; }
 
-        public int Roll { get; set; }
-
-        public PatrolType Type { get; set; }
-
-        public IEnumerable<PatrolBox> PatrolBoxes { get; set; }
+        public IDictionary<string, PatrolBox> PatrolBoxes { get; set; }
         #endregion PROPERTIES
     }
 }

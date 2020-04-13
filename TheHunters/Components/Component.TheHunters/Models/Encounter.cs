@@ -8,12 +8,12 @@ namespace Component.TheHunters.Models
         public Encounter(int roll, EncounterType type)
         {
             Roll = roll;
-            Type = type;
+            EncounterType = type;
         }
         #endregion CONSTRUCTOR
 
         #region PROPERTIES
-        public EncounterType Type { get; set; }
+        public EncounterType EncounterType { get; set; }
 
         public int Roll { get; set; }
         #endregion PROPERTIES

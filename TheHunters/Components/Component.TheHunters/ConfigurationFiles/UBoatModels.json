@@ -1,0 +1,3968 @@
+[
+  {
+    "Model": 0,
+    "Length": 211,
+    "Displacement": 626,
+    "SurfaceSpeed": 16,
+    "Range": 4300,
+    "Crew": 44,
+    "TotalProduced": 10,
+    "Mineload": 0,
+    "TorpedoLoad": 11,
+    "Available": "1939-09-01T00:00:00",
+    "DeckGun": {
+      "Caliber": "8.8 cm",
+      "MaxAmmunition": 10
+    },
+    "Flak": [
+      {
+        "Caliber": "2 cm"
+      }
+    ],
+    "StandardNumberSteamTorpedos": 6,
+    "StandardNumberElectricTorpedos": 5,
+    "MaxTorpedoAdjustments": 1,
+    "FrontTorpedoSection": {
+      "Type": 0,
+      "TorpedoTubes": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "Reloads": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "AftTorpedoSection": {
+      "Type": 1,
+      "TorpedoTubes": [
+        null
+      ],
+      "Reloads": []
+    },
+    "Patrols": [
+      {
+        "Name": 0,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "6": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 2,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "6": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 4,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 11,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "6": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 3,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 11,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "6": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 7,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 9,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "10": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 10,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "6": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 9,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "6": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 1,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 2,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 2,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 2,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "6": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 6,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 15,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 7,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 7,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 7,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "Model": 1,
+    "Length": 218,
+    "Displacement": 753,
+    "SurfaceSpeed": 17.2,
+    "Range": 6500,
+    "Crew": 44,
+    "TotalProduced": 24,
+    "Mineload": 0,
+    "TorpedoLoad": 14,
+    "Available": "1939-09-01T00:00:00",
+    "DeckGun": {
+      "Caliber": "8.8 cm",
+      "MaxAmmunition": 10
+    },
+    "Flak": [
+      {
+        "Caliber": "2 cm"
+      }
+    ],
+    "StandardNumberSteamTorpedos": 8,
+    "StandardNumberElectricTorpedos": 6,
+    "MaxTorpedoAdjustments": 3,
+    "FrontTorpedoSection": {
+      "Type": 0,
+      "TorpedoTubes": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "Reloads": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "AftTorpedoSection": {
+      "Type": 1,
+      "TorpedoTubes": [
+        null
+      ],
+      "Reloads": [
+        null
+      ]
+    },
+    "Patrols": [
+      {
+        "Name": 0,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 2,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 4,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 11,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 3,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 11,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 7,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 9,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "10": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "11": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 10,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 9,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 1,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 2,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 2,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 2,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 2,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 6,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 15,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 7,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 7,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 7,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 7,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "Model": 2,
+    "Length": 218,
+    "Displacement": 761,
+    "SurfaceSpeed": 17.2,
+    "Range": 6500,
+    "Crew": 44,
+    "TotalProduced": 661,
+    "Mineload": 0,
+    "TorpedoLoad": 14,
+    "Available": "1940-10-01T00:00:00",
+    "DeckGun": {
+      "Caliber": "8.8 cm",
+      "MaxAmmunition": 10
+    },
+    "Flak": [
+      {
+        "Caliber": "2 cm"
+      }
+    ],
+    "StandardNumberSteamTorpedos": 8,
+    "StandardNumberElectricTorpedos": 6,
+    "MaxTorpedoAdjustments": 3,
+    "FrontTorpedoSection": {
+      "Type": 0,
+      "TorpedoTubes": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "Reloads": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "AftTorpedoSection": {
+      "Type": 1,
+      "TorpedoTubes": [
+        null
+      ],
+      "Reloads": [
+        null
+      ]
+    },
+    "Patrols": [
+      {
+        "Name": 0,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 2,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 4,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 11,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 4,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 11,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 7,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 9,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "10": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "11": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 10,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 9,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 1,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 2,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 2,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 2,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 2,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 6,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 15,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 7,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 7,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 7,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 7,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "Model": 3,
+    "Length": 218,
+    "Displacement": 761,
+    "SurfaceSpeed": 17.2,
+    "Range": 6500,
+    "Crew": 44,
+    "TotalProduced": 7,
+    "Mineload": 0,
+    "TorpedoLoad": 5,
+    "Available": "1943-05-01T00:00:00",
+    "Flak": [
+      {
+        "Caliber": "2 cm"
+      },
+      {
+        "Caliber": "2 cm"
+      },
+      {
+        "Caliber": "3.7 cm"
+      }
+    ],
+    "StandardNumberSteamTorpedos": 8,
+    "StandardNumberElectricTorpedos": 6,
+    "MaxTorpedoAdjustments": 3,
+    "FrontTorpedoSection": {
+      "Type": 0,
+      "TorpedoTubes": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "Reloads": []
+    },
+    "AftTorpedoSection": {
+      "Type": 1,
+      "TorpedoTubes": [
+        null
+      ],
+      "Reloads": []
+    },
+    "Patrols": [
+      {
+        "Name": 0,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 2,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 4,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 11,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 3,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 11,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 7,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 9,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "10": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "11": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 10,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 9,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 1,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 2,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 2,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 2,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 2,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 6,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 15,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 7,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 7,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 7,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 7,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "Model": 4,
+    "Length": 252,
+    "Displacement": 965,
+    "SurfaceSpeed": 16,
+    "Range": 8100,
+    "Crew": 44,
+    "TotalProduced": 6,
+    "Mineload": 15,
+    "TorpedoLoad": 14,
+    "Available": "1942-01-01T00:00:00",
+    "DeckGun": {
+      "Caliber": "8.8 cm",
+      "MaxAmmunition": 10
+    },
+    "Flak": [
+      {
+        "Caliber": "2 cm"
+      }
+    ],
+    "StandardNumberSteamTorpedos": 8,
+    "StandardNumberElectricTorpedos": 6,
+    "MaxTorpedoAdjustments": 3,
+    "MineSection": {
+      "MaxMines": 15,
+      "CurrentMines": 15
+    },
+    "FrontTorpedoSection": {
+      "Type": 0,
+      "TorpedoTubes": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "Reloads": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "AftTorpedoSection": {
+      "Type": 1,
+      "TorpedoTubes": [
+        null
+      ],
+      "Reloads": [
+        null
+      ]
+    },
+    "Patrols": [
+      {
+        "Name": 0,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 2,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 2,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 11,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 2,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 7,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 11,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 2,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "10": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "11": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 5,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 11,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 2,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "10": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "11": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 10,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 2,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 11,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 16,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 16,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 16,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 16,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "10": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 1,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 2,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 2,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 2,
+            "CountRollEncounters": 2,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 2,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 2,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 6,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 15,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 7,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 7,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 7,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 7,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "Model": 5,
+    "Length": 251,
+    "Displacement": 1032,
+    "SurfaceSpeed": 18.2,
+    "Range": 8100,
+    "Crew": 48,
+    "TotalProduced": 8,
+    "Mineload": 0,
+    "TorpedoLoad": 22,
+    "Available": "1939-09-01T00:00:00",
+    "DeckGun": {
+      "Caliber": "10.5 cm",
+      "MaxAmmunition": 5
+    },
+    "Flak": [
+      {
+        "Caliber": "2 cm"
+      },
+      {
+        "Caliber": "3.7 cm"
+      }
+    ],
+    "StandardNumberSteamTorpedos": 12,
+    "StandardNumberElectricTorpedos": 10,
+    "MaxTorpedoAdjustments": 4,
+    "FrontTorpedoSection": {
+      "Type": 0,
+      "TorpedoTubes": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "Reloads": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "AftTorpedoSection": {
+      "Type": 1,
+      "TorpedoTubes": [
+        null,
+        null
+      ],
+      "Reloads": [
+        null,
+        null
+      ]
+    },
+    "Patrols": [
+      {
+        "Name": 0,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 2,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 4,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 11,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 3,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 11,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 7,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 9,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 2,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "10": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "11": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "12": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 5,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 9,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 2,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "10": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "11": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "12": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 10,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 9,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 11,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 16,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 16,
+            "CountRollEncounters": 2,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 16,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 16,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "10": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "Model": 6,
+    "Length": 251,
+    "Displacement": 1032,
+    "SurfaceSpeed": 18.2,
+    "Range": 8100,
+    "Crew": 48,
+    "TotalProduced": 8,
+    "Mineload": 0,
+    "TorpedoLoad": 22,
+    "Available": "1940-04-01T00:00:00",
+    "DeckGun": {
+      "Caliber": "10.5 cm",
+      "MaxAmmunition": 5
+    },
+    "Flak": [
+      {
+        "Caliber": "2 cm"
+      },
+      {
+        "Caliber": "3.7 cm"
+      }
+    ],
+    "StandardNumberSteamTorpedos": 12,
+    "StandardNumberElectricTorpedos": 10,
+    "MaxTorpedoAdjustments": 4,
+    "FrontTorpedoSection": {
+      "Type": 0,
+      "TorpedoTubes": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "Reloads": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "AftTorpedoSection": {
+      "Type": 1,
+      "TorpedoTubes": [
+        null,
+        null
+      ],
+      "Reloads": [
+        null,
+        null
+      ]
+    },
+    "Patrols": [
+      {
+        "Name": 0,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 2,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 2,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 2,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 4,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 11,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 2,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 3,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 11,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 2,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 7,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 9,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 2,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "10": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "11": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "12": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 5,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 9,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 2,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "10": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "11": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "12": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 10,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 2,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 9,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 2,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 11,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 16,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 16,
+            "CountRollEncounters": 2,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 16,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 16,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "10": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "Model": 7,
+    "Length": 252,
+    "Displacement": 1120,
+    "SurfaceSpeed": 18.3,
+    "Range": 11000,
+    "Crew": 48,
+    "TotalProduced": 54,
+    "Mineload": 0,
+    "TorpedoLoad": 22,
+    "Available": "1941-05-01T00:00:00",
+    "DeckGun": {
+      "Caliber": "10.5 cm",
+      "MaxAmmunition": 5
+    },
+    "Flak": [
+      {
+        "Caliber": "2 cm"
+      },
+      {
+        "Caliber": "3.7 cm"
+      }
+    ],
+    "StandardNumberSteamTorpedos": 12,
+    "StandardNumberElectricTorpedos": 10,
+    "MaxTorpedoAdjustments": 4,
+    "FrontTorpedoSection": {
+      "Type": 0,
+      "TorpedoTubes": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "Reloads": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "AftTorpedoSection": {
+      "Type": 1,
+      "TorpedoTubes": [
+        null,
+        null
+      ],
+      "Reloads": [
+        null,
+        null
+      ]
+    },
+    "Patrols": [
+      {
+        "Name": 0,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 3,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 0,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 2,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 3,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 4,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 11,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 3,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 3,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 11,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 3,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 4,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 7,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 9,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 2,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 2,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "10": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "11": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "12": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 5,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 9,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 2,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 2,
+            "ResupplyCheck": false
+          },
+          "8": {
+            "PatrolBoxType": 8,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "10": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "11": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "12": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 10,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 3,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 12,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 9,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 3,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 10,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      },
+      {
+        "Name": 11,
+        "PatrolBoxes": {
+          "1": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "2": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "3": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "4": {
+            "PatrolBoxType": 16,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "5": {
+            "PatrolBoxType": 16,
+            "CountRollEncounters": 3,
+            "ResupplyCheck": false
+          },
+          "6": {
+            "PatrolBoxType": 16,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "7": {
+            "PatrolBoxType": 16,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": true
+          },
+          "8": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "9": {
+            "PatrolBoxType": 13,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          },
+          "10": {
+            "PatrolBoxType": 14,
+            "CountRollEncounters": 1,
+            "ResupplyCheck": false
+          }
+        }
+      }
+    ]
+  }
+]

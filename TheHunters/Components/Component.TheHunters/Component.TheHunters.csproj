@@ -26,4 +26,10 @@
     <Folder Include="ConfigurationFiles\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="ConfigurationFiles\U-BoatPatrolAssignments.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

@@ -1,23 +1,18 @@
 ﻿namespace Component.TheHunters.Enumerations
 {
-    public enum PatrolBoxType
+    public enum PatrolRegions
     {
         ATLANTIC,
-        ATLANTIC_WOLFPACK,
         ARCTIC,
-        BAY_OF_BISCAY,
         BRITISH_ISLES,
+        BRITISH_ISLES_A,
+        BRITISH_ISLES_M,
         CARIBBEAN,
-        GIBRALTAR,
         MEDITERRANEAN,
         NORTH_AMERICA,
-        NORTH_AMERICA_OR_A,
+        NORTH_AMERICA_A,
         NORWAY,
-        MISSION,
         SPANISH_COAST,
-        TRANSIT,
-        TRANSIT_OR_BAY_OF_BISCAY,
-        TRANSIT_OR_GIBRALTAR,
         WEST_AFRICAN_COAST
     }
 }

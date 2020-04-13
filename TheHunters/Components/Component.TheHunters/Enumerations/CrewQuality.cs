@@ -1,9 +1,9 @@
 ﻿namespace Component.TheHunters.Enumerations
 {
     /// <summary>
-    /// <para>This enumeration represents the skill level of the U-Boat crew.</para>
+    /// <para>This enumeration represents the quality of the U-Boat crew.</para>
     /// </summary>
-    public enum CrewSkill
+    public enum CrewQuality
     {
         GREEN = 1,
         TRAINED = 2,

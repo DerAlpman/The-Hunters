@@ -1,11 +1,45 @@
 ﻿using System;
+using System.Collections.Generic;
+using Component.TheHunters.Enumerations;
 
 namespace Component.TheHunters.Models
 {
     public class UBoatModel
     {
+        #region CONSTRUCTOR
+        public UBoatModel(
+            UBoatModels model, int length, int displacement,
+            double speed, int range, int crew,
+            int totalProduced, DeckGun deckGun, Flak[] flaks,
+            int mineLoad, int torpedoLoad, DateTime available,
+            int standardNumberSteamTorpedos, int standardNumberElectricTorpedos, int maxTorpedoAdjustments,
+            MineSection mineSection, TorpedoSection frontTorpedoSection, TorpedoSection aftTorpedoSection,
+            List<PatrolRegion> patrols)
+        {
+            Model = model;
+            Length = length;
+            Displacement = displacement;
+            SurfaceSpeed = speed;
+            Range = range;
+            Crew = crew;
+            TotalProduced = totalProduced;
+            DeckGun = deckGun;
+            Flak = flaks;
+            Mineload = mineLoad;
+            TorpedoLoad = torpedoLoad;
+            Available = available;
+            StandardNumberSteamTorpedos = standardNumberSteamTorpedos;
+            StandardNumberElectricTorpedos = standardNumberElectricTorpedos;
+            MaxTorpedoAdjustments = maxTorpedoAdjustments;
+            MineSection = mineSection;
+            FrontTorpedoSection = frontTorpedoSection;
+            AftTorpedoSection = aftTorpedoSection;
+            Patrols = patrols;
+        }
+        #endregion CONSTRUCTOR
+
         #region PROPERTIES
-        public string Type { get; }
+        public UBoatModels Model { get; }
 
         public int Length { get; }
 
@@ -23,25 +57,25 @@ namespace Component.TheHunters.Models
 
         public int TorpedoLoad { get; }
 
-        public Torpedo[] ForwardReloads { get; }
-
-        public Torpedo[] AftReloads { get; }
-
         public DateTime Available { get; }
 
         public DeckGun DeckGun { get; }
 
         public Flak[] Flak { get; }
 
-        public TorpedoTube[] ForwardTorpedoTubes { get; }
-
-        public TorpedoTube[] AftTorpedoTubes { get; }
-
-        public int StandardNumberSteamTorpedod { get; }
+        public int StandardNumberSteamTorpedos { get; }
 
         public int StandardNumberElectricTorpedos { get; }
 
         public int MaxTorpedoAdjustments { get; }
+
+        public MineSection MineSection { get; set; }
+
+        public TorpedoSection FrontTorpedoSection { get; set; }
+
+        public TorpedoSection AftTorpedoSection { get; set; }
+
+        public IEnumerable<PatrolRegion> Patrols { get; set; }
         #endregion PROPERTIES
     }
 }
