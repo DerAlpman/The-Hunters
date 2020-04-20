@@ -39,7 +39,6 @@ namespace JsonWriterConsole.Creator
             {
                 ["CapitalShips"] = CapitalShips(),
                 ["Tankers"] = Tankers(),
-                ["Optional.Tankers"] = OptionalTankers(),
                 ["NorthAmerica.Tankers"] = NorthAmericaTankers(),
                 ["SmallFreighters"] = SmallFreighters(),
                 ["Optional.SmallFreighters"] = OptionalSmallFreighters(),
@@ -556,13 +555,6 @@ namespace JsonWriterConsole.Creator
                 { ShipFactory.CreateShip(ShipType.TANKER, 8000, "Esso Nashville") },
                 { ShipFactory.CreateShip(ShipType.TANKER, 11400, "Atlantic Sun") },
                 { ShipFactory.CreateShip(ShipType.TANKER, 8000, "DixieArrow") }
-            };
-        }
-
-        private static IList<Ship> OptionalTankers()
-        {
-            return new List<Ship>()
-            {
             };
         }
 
