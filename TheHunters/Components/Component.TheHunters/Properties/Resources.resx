@@ -120,4 +120,7 @@
   <data name="TorpedoTubeAlreadyLoaded" xml:space="preserve">
     <value>The tube is already loaded.</value>
   </data>
+  <data name="TorpedoTubeNowLoaded" xml:space="preserve">
+    <value>The tube is now loaded.</value>
+  </data>
 </root>

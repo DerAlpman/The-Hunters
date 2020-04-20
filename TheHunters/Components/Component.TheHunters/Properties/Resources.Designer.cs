@@ -68,5 +68,14 @@ namespace Component.TheHunters.Properties {
                 return ResourceManager.GetString("TorpedoTubeAlreadyLoaded", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The tube is now loaded..
+        /// </summary>
+        internal static string TorpedoTubeNowLoaded {
+            get {
+                return ResourceManager.GetString("TorpedoTubeNowLoaded", resourceCulture);
+            }
+        }
     }
 }

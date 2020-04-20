@@ -1,7 +1,4 @@
-﻿using System;
-using Component.TheHunters.Properties;
-
-namespace Component.TheHunters.Models
+﻿namespace Component.TheHunters.Models
 {
     /// <summary>
     /// <para>This can contain a <see cref="Torpedo"/> and is part of a <see cref="TorpedoSection"/>.</para>
@@ -12,12 +9,11 @@ namespace Component.TheHunters.Models
         public Torpedo Torpedo { get; set; }
         #endregion PROPERTIES
 
-        public void Reload(Torpedo torpedo)
+        #region METHODS
+        internal bool IsLoaded()
         {
-            if (Torpedo != null)
-                throw new InvalidOperationException(Resources.TorpedoTubeAlreadyLoaded);
-
-            Torpedo = torpedo ?? throw new ArgumentNullException(nameof(torpedo));
+            return Torpedo != null;
         }
+        #endregion
     }
 }
