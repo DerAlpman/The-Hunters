@@ -4,17 +4,28 @@ using System.IO;
 using System.Text.Json;
 using Component.TheHunters.Charts;
 using Component.TheHunters.Enumerations;
+using JsonWriterConsole.Creator;
 
 namespace JsonWriterConsole.Creators
 {
-    internal static class UBoatPatrolAssignmentCreator
+    /// <summary>
+    /// <see cref="IConfigFileCreator"/>
+    /// <para>This class creates configuration files for U-Boat patrol assignments.</para>
+    /// </summary>
+    internal class UBoatPatrolAssignmentCreator : IConfigFileCreator
     {
-        internal static void WritePatrolAssignments(string configFileFolder)
+        #region IConfigFileCreator
+        /// <summary>
+        /// <see cref="IConfigFileCreator"/>
+        /// </summary>
+        public void WriteData(string configFileFolder)
         {
             var uBoatPatrolAssignments = BuildUBoatPatrolAssignments();
             WriteUBoatPatrolAssignmentToJson(configFileFolder, uBoatPatrolAssignments);
         }
+        #endregion
 
+        #region METHODS
         private static void WriteUBoatPatrolAssignmentToJson(string configFileFolder, IList<UBoatPatrolAssignment> uBoatPatrolAssignments)
         {
             using var fileStream = new FileStream(Path.Combine(configFileFolder, "UBoatPatrolAssignments.json"), FileMode.Create);
@@ -198,5 +209,6 @@ namespace JsonWriterConsole.Creators
                 }
                 );
         }
+        #endregion METHODS
     }
 }

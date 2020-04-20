@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Collections.Generic;
+using System.IO;
 using System.Reflection;
 using System.Text.RegularExpressions;
 using Component.TheHunters.Models;
@@ -13,9 +14,17 @@ namespace JsonWriterConsole
         {
             var configFileFolder = GetFoldersForConfigurationFiles();
 
-            ShipListCreator.WriteShips(configFileFolder);
-            UBoatModelCreator.WriteUBoatModels(configFileFolder);
-            UBoatPatrolAssignmentCreator.WritePatrolAssignments(configFileFolder);
+            var creators = new List<IConfigFileCreator>()
+            {
+                { new ShipListCreator() },
+                { new UBoatModelCreator() },
+                { new UBoatPatrolAssignmentCreator() }
+            };
+
+            foreach (var creator in creators)
+            {
+                creator.WriteData(configFileFolder);
+            }
         }
 
         private static string GetFoldersForConfigurationFiles()
@@ -26,6 +35,5 @@ namespace JsonWriterConsole
             var appRoot = appPathMatcher.Match(directory).Value;
             return Path.Combine(appRoot, @"..\..\Components", currentAssem.GetName().Name, "ConfigurationFiles");
         }
-
     }
 }

@@ -7,9 +7,16 @@ using Component.TheHunters.Models;
 
 namespace JsonWriterConsole.Creator
 {
-    internal static class ShipListCreator
+    /// <summary>
+    /// <see cref="IConfigFileCreator"/>
+    /// <para>This class creates configuration files for ship lists.</para>
+    /// </summary>
+    public class ShipListCreator : IConfigFileCreator
     {
-        internal static void WriteShips(string configFileFolder)
+        /// <summary>
+        /// <see cref="IConfigFileCreator.WriteData(string)"/>
+        /// </summary>
+        public void WriteData(string configFileFolder)
         {
             IDictionary<string, IList<Ship>> shipLists = BuildShipLists();
             WriteShipListsToJson(configFileFolder, shipLists);

@@ -4,12 +4,21 @@ using System.IO;
 using System.Text.Json;
 using Component.TheHunters.Enumerations;
 using Component.TheHunters.Models;
+using JsonWriterConsole.Creator;
 
 namespace JsonWriterConsole.Creators
 {
-    internal static class UBoatModelCreator
+    /// <summary>
+    /// <see cref="IConfigFileCreator"/>
+    /// <para>This class creates configuration files for U-Boat models.</para>
+    /// </summary>
+    internal class UBoatModelCreator : IConfigFileCreator
     {
-        internal static void WriteUBoatModels(string configFileFolder)
+        #region IConfigFileCreator
+        /// <summary>
+        /// <see cref="IConfigFileCreator.WriteData(string)"/>
+        /// </summary>
+        public void WriteData(string configFileFolder)
         {
             var uBoatModels = new List<UBoatModel>()
             {
@@ -22,8 +31,10 @@ namespace JsonWriterConsole.Creators
                 { CreateIXB() },
                 { CreateIXC() }
             };
+
             WriteUBoatModelsToJson(configFileFolder, uBoatModels);
         }
+        #endregion
 
         #region METHODS
         private static void WriteUBoatModelsToJson(string configFileFolder, List<UBoatModel> uBoatModels)
