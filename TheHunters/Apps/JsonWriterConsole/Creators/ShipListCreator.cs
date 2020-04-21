@@ -11,7 +11,7 @@ namespace JsonWriterConsole.Creator
     /// <see cref="IConfigFileCreator"/>
     /// <para>This class creates configuration files for ship lists.</para>
     /// </summary>
-    public class ShipListCreator : IConfigFileCreator
+    internal class ShipListCreator : IConfigFileCreator
     {
         /// <summary>
         /// <see cref="IConfigFileCreator.WriteData(string)"/>

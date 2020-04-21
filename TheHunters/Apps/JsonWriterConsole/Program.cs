@@ -18,7 +18,8 @@ namespace JsonWriterConsole
             {
                 { new ShipListCreator() },
                 { new UBoatModelCreator() },
-                { new UBoatPatrolAssignmentCreator() }
+                { new UBoatPatrolAssignmentCreator() },
+                { new EncounterChartCreator() }
             };
 
             foreach (var creator in creators)

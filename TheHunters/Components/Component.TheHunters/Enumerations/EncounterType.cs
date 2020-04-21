@@ -7,6 +7,7 @@
         CONVOY,
         SHIP,
         ESCORTED_SHIP,
+        TWO_SHIPS,
         TWO_ESCORTED_SHIPS,
         TANKER,
         ESCORT
