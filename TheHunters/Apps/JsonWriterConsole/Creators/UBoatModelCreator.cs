@@ -20,7 +20,7 @@ namespace JsonWriterConsole.Creators
         /// </summary>
         public void WriteData(string configFileFolder)
         {
-            var uBoatModels = new List<UBoatModel>()
+            var data = new List<UBoatModel>()
             {
                 { CreateVIIA() },
                 { CreateVIIB() },
@@ -32,12 +32,12 @@ namespace JsonWriterConsole.Creators
                 { CreateIXC() }
             };
 
-            WriteUBoatModelsToJson(configFileFolder, uBoatModels);
+            WriteDataToJson(configFileFolder, data);
         }
         #endregion
 
         #region METHODS
-        private static void WriteUBoatModelsToJson(string configFileFolder, List<UBoatModel> uBoatModels)
+        private static void WriteDataToJson(string configFileFolder, List<UBoatModel> data)
         {
             using var fileStream = new FileStream(Path.Combine(configFileFolder, "UBoatModels.json"), FileMode.Create);
             using var utf8JsonWriter = new Utf8JsonWriter(fileStream);
@@ -46,7 +46,7 @@ namespace JsonWriterConsole.Creators
                 IgnoreNullValues = true
             };
 
-            JsonSerializer.Serialize<List<UBoatModel>>(utf8JsonWriter, uBoatModels, serializerOptions);
+            JsonSerializer.Serialize<List<UBoatModel>>(utf8JsonWriter, data, serializerOptions);
         }
         private static UBoatModel CreateIXC()
         {

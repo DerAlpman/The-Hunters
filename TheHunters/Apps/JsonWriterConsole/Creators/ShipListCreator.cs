@@ -18,14 +18,14 @@ namespace JsonWriterConsole.Creator
         /// </summary>
         public void WriteData(string configFileFolder)
         {
-            IDictionary<string, IList<Ship>> shipLists = BuildShipLists();
-            WriteShipListsToJson(configFileFolder, shipLists);
+            var data = BuildData();
+            WriteShipListsToJson(configFileFolder, data);
         }
 
         #region METHODS
-        private static void WriteShipListsToJson(string configFileFolder, IDictionary<string, IList<Ship>> shipLists)
+        private static void WriteShipListsToJson(string configFileFolder, IDictionary<string, IList<Ship>> data)
         {
-            foreach (var shipList in shipLists)
+            foreach (var shipList in data)
             {
                 using var fileStream = new FileStream(Path.Combine(configFileFolder, shipList.Key + ".json"), FileMode.Create);
                 using var utf8JsonWriter = new Utf8JsonWriter(fileStream);
@@ -33,7 +33,7 @@ namespace JsonWriterConsole.Creator
             }
         }
 
-        private static IDictionary<string, IList<Ship>> BuildShipLists()
+        private static IDictionary<string, IList<Ship>> BuildData()
         {
             var shipLists = new Dictionary<string, IList<Ship>>
             {

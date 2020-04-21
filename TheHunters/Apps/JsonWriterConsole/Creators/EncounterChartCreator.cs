@@ -19,20 +19,20 @@ namespace JsonWriterConsole.Creators
         /// </summary>
         public void WriteData(string configFileFolder)
         {
-            IList<Encounter> encounterChart = BuildEncounterChart();
-            WriteEncounterChartToJson(configFileFolder, encounterChart);
+            var data = BuildData();
+            WriteDataToJson(configFileFolder, data);
         }
         #endregion IConfigFileCreator
 
         #region METHODS
-        private void WriteEncounterChartToJson(string configFileFolder, IList<Encounter> encounterChart)
+        private void WriteDataToJson(string configFileFolder, IList<Encounter> data)
         {
             using var fileStream = new FileStream(Path.Combine(configFileFolder, "EncounterChart.json"), FileMode.Create);
             using var utf8JsonWriter = new Utf8JsonWriter(fileStream);
-            JsonSerializer.Serialize(utf8JsonWriter, encounterChart);
+            JsonSerializer.Serialize(utf8JsonWriter, data);
         }
 
-        private IList<Encounter> BuildEncounterChart()
+        private IList<Encounter> BuildData()
         {
             List<Encounter> encounters = new List<Encounter>();
             encounters.AddRange(Transit());

@@ -20,20 +20,20 @@ namespace JsonWriterConsole.Creators
         /// </summary>
         public void WriteData(string configFileFolder)
         {
-            var uBoatPatrolAssignments = BuildUBoatPatrolAssignments();
-            WriteUBoatPatrolAssignmentToJson(configFileFolder, uBoatPatrolAssignments);
+            var data = BuildData();
+            WriteDataToJson(configFileFolder, data);
         }
         #endregion
 
         #region METHODS
-        private static void WriteUBoatPatrolAssignmentToJson(string configFileFolder, IList<UBoatPatrolAssignment> uBoatPatrolAssignments)
+        private static void WriteDataToJson(string configFileFolder, IList<UBoatPatrolAssignment> data)
         {
             using var fileStream = new FileStream(Path.Combine(configFileFolder, "UBoatPatrolAssignments.json"), FileMode.Create);
             using var utf8JsonWriter = new Utf8JsonWriter(fileStream);
-            JsonSerializer.Serialize<IList<UBoatPatrolAssignment>>(utf8JsonWriter, uBoatPatrolAssignments);
+            JsonSerializer.Serialize<IList<UBoatPatrolAssignment>>(utf8JsonWriter, data);
         }
 
-        private static IList<UBoatPatrolAssignment> BuildUBoatPatrolAssignments()
+        private static IList<UBoatPatrolAssignment> BuildData()
         {
             var uBoatPatrolAssignments = new List<UBoatPatrolAssignment>()
             {
