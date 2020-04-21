@@ -45,8 +45,42 @@ namespace JsonWriterConsole.Creators
             encounters.AddRange(Norway());
             encounters.AddRange(SpanishCoast());
             encounters.AddRange(WestAfricanCoast());
+            encounters.AddRange(Gibraltar());
+            encounters.AddRange(AddlRoundOfCombat());
+            encounters.AddRange(BayOfBiscay());
+            encounters.AddRange(SpecialMissions());
 
             return encounters;
+        }
+
+        private IEnumerable<Encounter> SpecialMissions()
+        {
+            yield return new Encounter(PatrolBoxType.MISSION, 2, EncounterType.AIRCRAFT);
+            yield return new Encounter(PatrolBoxType.MISSION, 3, EncounterType.AIRCRAFT);
+            yield return new Encounter(PatrolBoxType.MISSION, 4, EncounterType.AIRCRAFT);
+        }
+
+        private IEnumerable<Encounter> BayOfBiscay()
+        {
+            yield return new Encounter(PatrolBoxType.BAY_OF_BISCAY, 2, EncounterType.AIRCRAFT);
+            yield return new Encounter(PatrolBoxType.BAY_OF_BISCAY, 3, EncounterType.AIRCRAFT);
+            yield return new Encounter(PatrolBoxType.BAY_OF_BISCAY, 4, EncounterType.AIRCRAFT);
+        }
+
+        private IEnumerable<Encounter> AddlRoundOfCombat()
+        {
+            yield return new Encounter(PatrolBoxType.ADDL_ROUND_OF_COMBAT, 2, EncounterType.ESCORT);
+            yield return new Encounter(PatrolBoxType.ADDL_ROUND_OF_COMBAT, 3, EncounterType.AIRCRAFT);
+            yield return new Encounter(PatrolBoxType.ADDL_ROUND_OF_COMBAT, 4, EncounterType.AIRCRAFT);
+            yield return new Encounter(PatrolBoxType.ADDL_ROUND_OF_COMBAT, 5, EncounterType.AIRCRAFT);
+        }
+
+        private IEnumerable<Encounter> Gibraltar()
+        {
+            yield return new Encounter(PatrolBoxType.GIBRALTAR, 2, EncounterType.ESCORT);
+            yield return new Encounter(PatrolBoxType.GIBRALTAR, 3, EncounterType.AIRCRAFT);
+            yield return new Encounter(PatrolBoxType.GIBRALTAR, 4, EncounterType.AIRCRAFT);
+            yield return new Encounter(PatrolBoxType.GIBRALTAR, 5, EncounterType.AIRCRAFT);
         }
 
         private IEnumerable<Encounter> WestAfricanCoast()
