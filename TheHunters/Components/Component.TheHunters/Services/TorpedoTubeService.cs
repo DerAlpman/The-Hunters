@@ -1,6 +1,6 @@
 ﻿using System;
 using Component.TheHunters.Interfaces;
-using Component.TheHunters.Models;
+using Component.TheHunters.Models.UBoat;
 using Component.TheHunters.Properties;
 
 namespace Component.TheHunters.Services

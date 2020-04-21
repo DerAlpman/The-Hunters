@@ -1,14 +1,15 @@
 ﻿using System.Text.Json.Serialization;
 using Component.TheHunters.Enumerations;
 
-namespace Component.TheHunters.Models
+namespace Component.TheHunters.Models.UBoat
 {
-    public class Flak
+    public class DeckGun
     {
         #region CONSTRUCTOR
-        public Flak(string caliber)
+        public DeckGun(string caliber, int maxAmmunition)
         {
             Caliber = caliber;
+            MaxAmmunition = maxAmmunition;
             Status = DamageStatus.NO_DAMAGE;
         }
         #endregion CONSTRUCTOR
@@ -18,6 +19,11 @@ namespace Component.TheHunters.Models
 
         [JsonIgnore]
         public DamageStatus Status { get; set; }
+
+        public int MaxAmmunition { get; }
+
+        [JsonIgnore]
+        public int CurrentAmmunition { get; set; }
         #endregion PROPERTIES
     }
 }

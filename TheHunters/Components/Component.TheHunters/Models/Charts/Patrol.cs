@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Component.TheHunters.Enumerations;
 
-namespace Component.TheHunters.Models
+namespace Component.TheHunters.Models.Charts
 {
     /// <summary>
     /// <para>A patrol consists of <see cref="PatrolBox"/>. </para>

@@ -1,6 +1,6 @@
 ﻿using Component.TheHunters.Enumerations;
 
-namespace Component.TheHunters.Models
+namespace Component.TheHunters.Models.UBoat
 {
     /// <summary>
     /// <para>The commander of a U-Boat.</para>

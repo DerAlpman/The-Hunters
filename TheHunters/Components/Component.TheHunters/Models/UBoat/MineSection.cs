@@ -1,4 +1,4 @@
-﻿namespace Component.TheHunters.Models
+﻿namespace Component.TheHunters.Models.UBoat
 {
     public class MineSection
     {

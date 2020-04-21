@@ -1,7 +1,7 @@
 ﻿using System.Text.Json.Serialization;
 using Component.TheHunters.Enumerations;
 
-namespace Component.TheHunters.Models
+namespace Component.TheHunters.Models.Charts
 {
     public class Ship
     {

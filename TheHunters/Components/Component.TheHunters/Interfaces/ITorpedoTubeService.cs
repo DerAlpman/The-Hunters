@@ -1,4 +1,4 @@
-﻿using Component.TheHunters.Models;
+﻿using Component.TheHunters.Models.UBoat;
 
 namespace Component.TheHunters.Interfaces
 {

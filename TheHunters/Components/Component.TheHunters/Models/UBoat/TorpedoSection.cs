@@ -1,6 +1,6 @@
 ﻿using Component.TheHunters.Enumerations;
 
-namespace Component.TheHunters.Models
+namespace Component.TheHunters.Models.UBoat
 {
     /// <summary>
     /// <para>A TorpedoSection has some <see cref="TorpedoTube"/> that can contain <see cref="Torpedo"/>. <see cref="Reloads"/> contains <see cref="Torpedo"/> that can be loaded in a <see cref="TorpedoTube"/>.</para>

@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using Component.TheHunters.Enumerations;
+using Component.TheHunters.Models.Charts;
 
-namespace Component.TheHunters.Models
+namespace Component.TheHunters.Models.UBoat
 {
     /// <summary>
     /// <para>A model of a <see cref="UBoat"/>.</para>

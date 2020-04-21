@@ -1,4 +1,4 @@
-﻿namespace Component.TheHunters.Models
+﻿namespace Component.TheHunters.Models.UBoat
 {
     /// <summary>
     /// <para>This can contain a <see cref="Torpedo"/> and is part of a <see cref="TorpedoSection"/>.</para>

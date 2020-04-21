@@ -1,5 +1,5 @@
 ﻿using Component.TheHunters.Enumerations;
-using Component.TheHunters.Models;
+using Component.TheHunters.Models.Charts;
 
 namespace Component.TheHunters
 {

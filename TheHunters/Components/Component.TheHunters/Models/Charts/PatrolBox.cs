@@ -1,6 +1,6 @@
 ﻿using Component.TheHunters.Enumerations;
 
-namespace Component.TheHunters.Models
+namespace Component.TheHunters.Models.Charts
 {
     /// <summary>
     /// <para>A PatrolBox is part of a <see cref="Patrol"/>.</para>

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Component.TheHunters.Charts
+namespace Component.TheHunters.Models.Charts
 {
     public class UBoatPatrolAssignment
     {

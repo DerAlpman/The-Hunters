@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
-using Component.TheHunters.Charts;
 using Component.TheHunters.Enumerations;
+using Component.TheHunters.Models.Charts;
 using JsonWriterConsole.Creator;
 
 namespace JsonWriterConsole.Creators
