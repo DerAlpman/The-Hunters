@@ -24,6 +24,44 @@ namespace Component.TheHunters.Models.Charts
 
         [JsonIgnore]
         public int Damage { get; set; }
+
+        public bool Sunk => IsSunk();
         #endregion
+
+        private bool IsSunk()
+        {
+            if (CheckForSmallFreighter())
+            {
+                return true;
+            }
+
+            if (CheckForCapitalShip())
+            {
+                return true;
+            }
+
+            if (CheckForTankerOrLargeFrighter())
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        private bool CheckForTankerOrLargeFrighter()
+        {
+            return ((Type == ShipType.LARGE_FREIGHTER) || Type == ShipType.TANKER)
+                && (Tonnage < 10000 && Damage >= 3) || (Tonnage >= 10000 && Damage >= 4);
+        }
+
+        private bool CheckForCapitalShip()
+        {
+            return Type == ShipType.CAPITAL_SHIP && Damage >= 5;
+        }
+
+        private bool CheckForSmallFreighter()
+        {
+            return Type == ShipType.SMALL_FREIGHTER && Damage >= 2;
+        }
     }
 }
