@@ -12,6 +12,6 @@ namespace Component.TheHunters.Interfaces
         /// <summary>
         /// <para>This property holds a ships available in the game.</para>
         /// </summary>
-        IDictionary<ShipType, IList<Ship>> Ships { get; }
+        IDictionary<ShipType, IEnumerable<Ship>> Ships { get; }
     }
 }

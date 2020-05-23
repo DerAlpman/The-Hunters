@@ -9,7 +9,7 @@ namespace Component.TheHunters.IO
     public interface IConfigFileLoader
     {
         /// <summary>
-        /// <para>Reads the content of <paramref name="configFile"/>.</para>
+        /// <para>Reads the ships that are persisted in <paramref name="configFile"/>.</para>
         /// </summary>
         /// <param name="configFile">A configuration file.</param>
         IEnumerable<Ship> ReadShipData(string configFile);
