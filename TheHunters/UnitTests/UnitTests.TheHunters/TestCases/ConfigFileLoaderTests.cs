@@ -8,31 +8,23 @@ namespace UnitTests.TheHunters.TestCases
     [TestClass]
     public class ConfigFileLoaderTests
     {
+        #region CONSTS
+        private const int TOTAL_NUMBER_OF_SHIPS = 570;
+        #endregion
         [TestMethod]
-        [DataRow("CapitalShips.json", 10, "CV Ark Royal", 22000)]
-        [DataRow("LargeFreighters.json", 100, "Sultan Star", 12300)]
-        [DataRow("SmallFreighters.json", 100, "Bosnia", 1800)]
-        [DataRow("Tankers.json", 100, "Inverliffey", 9400)]
-        [DataRow("NorthAmerica.LargeFreighters.json", 20, "Lady Hawkins", 8000)]
-        [DataRow("NorthAmerica.SmallFreighters.json", 20, "Ciltvaira", 3800)]
-        [DataRow("NorthAmerica.Tankers.json", 20, "Norness", 9100)]
-        [DataRow("Optional.LargeFreighters.json", 100, "El Oso", 7300)]
-        [DataRow("Optional.SmallFreighters.json", 100, "Alsacien", 3800)]
-        public void ReadShipData_InputJSONFile_AllShipsAreAvailable(string fileName, int countShips, string nameFirstShip, int tonnageFirstShip)
+        public void ReadShipData_InputJSONFile_AllShipsAreAvailable()
         {
             #region ARRANGE
-            IConfigFileLoader loader = new ConfigFileLoader();
-            var file = Path.Combine(Path.GetDirectoryName(loader.GetType().Assembly.Location), "ConfigurationFiles", "Ships", fileName);
+            IConfigurationFileLoader loader = new JsonConfigurationFileLoader();
+            var di = new DirectoryInfo(Path.Combine(Path.GetDirectoryName(loader.GetType().Assembly.Location), "ConfigurationFiles", "Ships"));
             #endregion
 
             #region ACT
-            var ships = loader.ReadShipData(file);
+            var ships = loader.ReadShipDataFromDirectory(di);
             #endregion
 
             #region ASSERT
-            Assert.IsTrue(ships.Count() == countShips);
-            Assert.IsTrue(ships.First().Name == nameFirstShip, $"Name of the first Ship should be \"{nameFirstShip}\" but is \"{ships.First().Name}\"");
-            Assert.IsTrue(ships.First().Tonnage == tonnageFirstShip, $"Tonnage of the first Ship should be {tonnageFirstShip} but is {ships.First().Tonnage}");
+            Assert.IsTrue(ships.Count() == TOTAL_NUMBER_OF_SHIPS);
             #endregion
         }
     }

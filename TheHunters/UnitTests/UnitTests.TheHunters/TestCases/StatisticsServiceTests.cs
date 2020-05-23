@@ -14,7 +14,7 @@ namespace UnitTests.TheHunters.TestCases
         {
             #region ARRANGE
             var statisticService = new StatisticsService();
-            var ship = new Ship("Norness", ShipType.TANKER, 9100);
+            var ship = new Ship("Norness", ShipType.TANKER, 9100, ShipRegion.NORTH_AMERICA);
             var shipStatistics = new ShipStatistic(ship);
             shipStatistics.AddGunAttack(GunAttack.UnsuccessfulAttack(1));
             shipStatistics.AddGunAttack(GunAttack.UnsuccessfulAttack(1));

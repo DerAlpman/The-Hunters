@@ -14,7 +14,7 @@ namespace JsonWriterConsole
         {
             var configFileFolder = GetFoldersForConfigurationFiles();
 
-            var creators = new List<IConfigFileCreator>()
+            var creators = new List<IConfigurationFileCreator>()
             {
                 { new ShipListCreator() },
                 { new UBoatModelCreator() },

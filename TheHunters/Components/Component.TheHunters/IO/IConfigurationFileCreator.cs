@@ -3,7 +3,7 @@
     /// <summary>
     /// <para>Defines methods for writing configuration file data.</para>
     /// </summary>
-    public interface IConfigFileCreator
+    public interface IConfigurationFileCreator
     {
         /// <summary>
         /// <para>Writes the data <paramref name="configFileFolder"/>.</para>

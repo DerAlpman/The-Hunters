@@ -10,14 +10,14 @@ using Component.TheHunters.Models.UBoat;
 namespace JsonWriterConsole.Creators
 {
     /// <summary>
-    /// <see cref="IConfigFileCreator"/>
+    /// <see cref="IConfigurationFileCreator"/>
     /// <para>This class creates configuration files for U-Boat models.</para>
     /// </summary>
-    internal class UBoatModelCreator : IConfigFileCreator
+    internal class UBoatModelCreator : IConfigurationFileCreator
     {
         #region IConfigFileCreator
         /// <summary>
-        /// <see cref="IConfigFileCreator.WriteData(string)"/>
+        /// <see cref="IConfigurationFileCreator.WriteData(string)"/>
         /// </summary>
         public void WriteData(string configFileFolder)
         {

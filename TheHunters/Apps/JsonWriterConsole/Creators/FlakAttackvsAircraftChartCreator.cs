@@ -8,14 +8,14 @@ using Component.TheHunters.Models.Charts;
 namespace JsonWriterConsole.Creators
 {
     /// <summary>
-    /// <see cref="IConfigFileCreator"/>
+    /// <see cref="IConfigurationFileCreator"/>
     /// <para>This class creates configuration files for the Flak Attack vs. Aircraft chart.</para>
     /// </summary>
-    internal class FlakAttackvsAircraftChartCreator : IConfigFileCreator
+    internal class FlakAttackvsAircraftChartCreator : IConfigurationFileCreator
     {
         #region IConfigFileCreator
         /// <summary>
-        /// <see cref="IConfigFileCreator.WriteData(string)"/>
+        /// <see cref="IConfigurationFileCreator.WriteData(string)"/>
         /// </summary>
         public void WriteData(string configFileFolder)
         {

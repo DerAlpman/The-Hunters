@@ -9,14 +9,14 @@ using Component.TheHunters.Models.Charts;
 namespace JsonWriterConsole.Creators
 {
     /// <summary>
-    /// <see cref="IConfigFileCreator"/>
+    /// <see cref="IConfigurationFileCreator"/>
     /// <para>This class creates configuration files for U-Boat patrol assignments.</para>
     /// </summary>
-    internal class UBoatPatrolAssignmentCreator : IConfigFileCreator
+    internal class UBoatPatrolAssignmentCreator : IConfigurationFileCreator
     {
         #region IConfigFileCreator
         /// <summary>
-        /// <see cref="IConfigFileCreator"/>
+        /// <see cref="IConfigurationFileCreator"/>
         /// </summary>
         public void WriteData(string configFileFolder)
         {

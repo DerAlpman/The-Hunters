@@ -6,7 +6,6 @@ namespace Component.TheHunters.Services
     {
         public void CalculateShipStatistic(Ship ship)
         {
-
         }
     }
 }

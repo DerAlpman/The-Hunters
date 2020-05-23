@@ -10,19 +10,21 @@ namespace Component.TheHunters.Models.Charts
         {
         }
 
-        internal Ship(string name, ShipType type, int tonnage)
+        internal Ship(string name, ShipType type, int tonnage, ShipRegion appearsInRegion)
         {
             Name = name;
             Type = type;
             Tonnage = tonnage;
             Damage = 0;
+            AlreadySelected = false;
+            AppearsInRegion = appearsInRegion;
         }
         #endregion
 
         #region PROPERTIES
         public string Name { get; set; }
 
-        public ShipType Type { get; }
+        public ShipType Type { get; set; }
 
         public int Tonnage { get; set; }
 
@@ -30,6 +32,10 @@ namespace Component.TheHunters.Models.Charts
         public int Damage { get; set; }
 
         public bool Sunk => IsSunk();
+
+        public bool AlreadySelected { get; set; }
+
+        public ShipRegion AppearsInRegion { get; set; }
         #endregion
 
         private bool IsSunk()

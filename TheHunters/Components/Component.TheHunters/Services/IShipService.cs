@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Component.TheHunters.Enumerations;
 using Component.TheHunters.Models.Charts;
 
 namespace Component.TheHunters.Interfaces
@@ -9,8 +10,11 @@ namespace Component.TheHunters.Interfaces
     public interface IShipService
     {
         /// <summary>
-        /// <para>This property holds a ships available in the game.</para>
+        /// <para>This method gets ships from the game's ship pool that are not sunk, yet.</para>
         /// </summary>
-        IEnumerable<Ship> Ships { get; }
+        /// <param name="count">The number of ships this method returns.</param>
+        /// <param name="shipType">The <see cref="ShipType"/> of the returned ships.</param>
+        /// <returns>A collection of <see cref="Ship"/>.</returns>
+        IList<Ship> GetShipsFromAvailable(int count, ShipType shipType, ShipRegion appearsInRegion);
     }
 }
