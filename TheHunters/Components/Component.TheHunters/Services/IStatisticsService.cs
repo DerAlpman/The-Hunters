@@ -1,6 +1,6 @@
 ﻿using Component.TheHunters.Models.Charts;
 
-namespace Component.TheHunters.Interaces
+namespace Component.TheHunters.Services
 {
     public interface IStatisticsService
     {

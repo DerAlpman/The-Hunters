@@ -1,5 +1,4 @@
 ﻿using Component.TheHunters.Enumerations;
-using Component.TheHunters.Interfaces;
 using Component.TheHunters.Models.UBoat;
 using Component.TheHunters.Services;
 using Microsoft.VisualStudio.TestTools.UnitTesting;

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Component.TheHunters.Interfaces;
 using Component.TheHunters.Models.Charts;
 
 namespace Component.TheHunters.Combat

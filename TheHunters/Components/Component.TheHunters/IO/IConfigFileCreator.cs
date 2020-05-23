@@ -1,4 +1,4 @@
-﻿namespace JsonWriterConsole.Creator
+﻿namespace Component.TheHunters.IO
 {
     /// <summary>
     /// <para>Defines methods for writing configuration file data.</para>

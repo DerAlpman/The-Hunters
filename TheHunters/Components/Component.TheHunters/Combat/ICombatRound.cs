@@ -1,7 +1,7 @@
 ﻿using Component.TheHunters.Models.Charts;
 using Component.TheHunters.Models.UBoat;
 
-namespace Component.TheHunters.Interfaces
+namespace Component.TheHunters.Combat
 {
     public interface ICombatRound
     {

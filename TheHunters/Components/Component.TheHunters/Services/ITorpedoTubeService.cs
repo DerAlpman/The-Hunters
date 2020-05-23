@@ -1,6 +1,6 @@
 ﻿using Component.TheHunters.Models.UBoat;
 
-namespace Component.TheHunters.Interfaces
+namespace Component.TheHunters.Services
 {
     /// <summary>
     /// <para>Provides methods for handling of <see cref="TorpedoTube"/>.</para>

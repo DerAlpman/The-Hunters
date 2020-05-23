@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Component.TheHunters.Models.Charts;
 
-namespace Component.TheHunters.Interfaces
+namespace Component.TheHunters.Combat
 {
     public interface IShipCombat
     {

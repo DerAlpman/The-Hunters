@@ -5,6 +5,7 @@
     /// </summary>
     public enum MedalRewards
     {
+        NONE,
         KC, // Knights Cross
         KCO, // Knights Cross with Oakleaves
         KCOS, // Knights Cross with Oakleaves and Swords

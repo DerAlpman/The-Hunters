@@ -3,9 +3,10 @@ using System.IO;
 using System.Text.Json;
 using Component.TheHunters;
 using Component.TheHunters.Enumerations;
+using Component.TheHunters.IO;
 using Component.TheHunters.Models.Charts;
 
-namespace JsonWriterConsole.Creator
+namespace JsonWriterConsole.Creators
 {
     /// <summary>
     /// <see cref="IConfigFileCreator"/>

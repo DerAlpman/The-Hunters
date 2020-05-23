@@ -1,5 +1,4 @@
-﻿using Component.TheHunters.Interaces;
-using Component.TheHunters.Models.Charts;
+﻿using Component.TheHunters.Models.Charts;
 
 namespace Component.TheHunters.Services
 {
