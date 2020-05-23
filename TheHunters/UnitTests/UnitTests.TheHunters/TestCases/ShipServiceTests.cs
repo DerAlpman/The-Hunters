@@ -33,6 +33,7 @@ namespace UnitTests.TheHunters.TestCases
             Assert.IsTrue(result.Count == nrShips);
             Assert.IsTrue(result.All(s => s.Type == shipType));
             Assert.IsTrue(result.All(s => s.AppearsInRegion == appearsInRegion));
+            Assert.IsTrue(result.All(s => s.AlreadySelected));
             #endregion
         }
     }

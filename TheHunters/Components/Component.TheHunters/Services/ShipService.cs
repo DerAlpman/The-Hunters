@@ -30,7 +30,7 @@ namespace Component.TheHunters.Services
         public IList<Ship> GetShipsFromAvailable(int count, ShipType shipType, ShipRegion appearsInRegion)
         {
             var ships = new List<Ship>();
-            var shipsOfType = _Ships.Where(s => s.Type == shipType && s.AppearsInRegion == appearsInRegion).ToList();
+            var shipsOfType = _Ships.Where(s => s.Type == shipType && s.AppearsInRegion == appearsInRegion && !s.Sunk).ToList();
             var rnd = new Random();
 
             for (int i = 0; i < count; i++)
@@ -42,11 +42,12 @@ namespace Component.TheHunters.Services
         }
         #endregion IShipService
 
+        #region ShipService
         private Ship SelectRandomShip(IList<Ship> ships, Random rnd)
         {
-            var ship = ships[rnd.Next(1, ships.Count) - 1];
-
-            if (ship.AlreadySelected || ship.Sunk)
+            int i = rnd.Next(0, ships.Count);
+            var ship = ships[i];
+            if (ship.AlreadySelected)
             {
                 ship = SelectRandomShip(ships, rnd);
             }
@@ -56,5 +57,6 @@ namespace Component.TheHunters.Services
             }
             return ship;
         }
+        #endregion ShipService
     }
 }

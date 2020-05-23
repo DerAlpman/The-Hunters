@@ -8,6 +8,7 @@ namespace Component.TheHunters.Enumerations
     [Flags]
     public enum ShipRegion
     {
+        NONE = 0,
         WORLD = 1,
         NORTH_AMERICA = 2
     }
