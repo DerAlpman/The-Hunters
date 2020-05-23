@@ -28,7 +28,7 @@ namespace JsonWriterConsole.Creators
         {
             foreach (var shipList in data)
             {
-                using var fileStream = new FileStream(Path.Combine(configFileFolder, shipList.Key + ".json"), FileMode.Create);
+                using var fileStream = new FileStream(Path.Combine(configFileFolder, "Ships", shipList.Key + ".json"), FileMode.Create);
                 using var utf8JsonWriter = new Utf8JsonWriter(fileStream);
                 JsonSerializer.Serialize<IList<Ship>>(utf8JsonWriter, shipList.Value);
             }

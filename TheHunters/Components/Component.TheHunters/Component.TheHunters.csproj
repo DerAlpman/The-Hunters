@@ -23,44 +23,37 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ConfigurationFiles\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="ConfigurationFiles\CapitalShips.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Update="ConfigurationFiles\EncounterChart.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="ConfigurationFiles\FlakAttackvsAircraftChart.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="ConfigurationFiles\LargeFreighters.json">
+    <None Update="ConfigurationFiles\Ships\CapitalShips.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="ConfigurationFiles\NorthAmerica.LargeFreighters.json">
+    <None Update="ConfigurationFiles\Ships\LargeFreighters.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="ConfigurationFiles\NorthAmerica.SmallFreighters.json">
+    <None Update="ConfigurationFiles\Ships\NorthAmerica.LargeFreighters.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="ConfigurationFiles\NorthAmerica.Tankers.json">
+    <None Update="ConfigurationFiles\Ships\NorthAmerica.SmallFreighters.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="ConfigurationFiles\Optional.LargeFreighters.json">
+    <None Update="ConfigurationFiles\Ships\NorthAmerica.Tankers.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="ConfigurationFiles\Optional.SmallFreighters.json">
+    <None Update="ConfigurationFiles\Ships\Optional.LargeFreighters.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="ConfigurationFiles\Optional.Tankers.json">
+    <None Update="ConfigurationFiles\Ships\Optional.SmallFreighters.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="ConfigurationFiles\SmallFreighters.json">
+    <None Update="ConfigurationFiles\Ships\SmallFreighters.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="ConfigurationFiles\Tankers.json">
+    <None Update="ConfigurationFiles\Ships\Tankers.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="ConfigurationFiles\UBoatModels.json">
@@ -75,6 +68,10 @@
     <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
       <_Parameter1>UnitTests.TheHunters</_Parameter1>
     </AssemblyAttribute>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ConfigurationFiles\Ships\" />
   </ItemGroup>
 
 </Project>

@@ -18,11 +18,11 @@ namespace UnitTests.TheHunters.TestCases
         [DataRow("NorthAmerica.Tankers.json", 20, "Norness", 9100)]
         [DataRow("Optional.LargeFreighters.json", 100, "El Oso", 7300)]
         [DataRow("Optional.SmallFreighters.json", 100, "Alsacien", 3800)]
-        public void CalculateShipStatistic_ShipStatistic_CorrectResult(string fileName, int countShips, string nameFirstShip, int tonnageFirstShip)
+        public void ReadShipData_InputJSONFile_AllShipsAreAvailable(string fileName, int countShips, string nameFirstShip, int tonnageFirstShip)
         {
             #region ARRANGE
             IConfigFileLoader loader = new ConfigFileLoader();
-            var file = Path.Combine(Path.GetDirectoryName(loader.GetType().Assembly.Location), "ConfigurationFiles", fileName);
+            var file = Path.Combine(Path.GetDirectoryName(loader.GetType().Assembly.Location), "ConfigurationFiles", "Ships", fileName);
             #endregion
 
             #region ACT
